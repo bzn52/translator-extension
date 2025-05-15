@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Side-by-Side Translator</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        font-family: sans-serif;
+      }
+
+      iframe {
+        width: 50%;
+        height: 100%;
+        border: none;
+      }
+
+      .left {
+        border-right: 2px solid #ccc;
+      }
+
+      .right {
+        border-left: 2px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="frame1" class="left"></iframe>
+    <iframe id="frame2" class="right"></iframe>
+    <script src="viewer.js"></script>
+  </body>
+</html>
