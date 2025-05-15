@@ -53,7 +53,8 @@ You can use this extension locally without publishing:
 
 ## 📁 Project Structure
 
-`instant-page-translator/
+```
+instant-page-translator/
 ├── manifest.json
 ├── popup.html
 ├── popup.js
@@ -62,7 +63,7 @@ You can use this extension locally without publishing:
 │ └── icon.png
 ├── README.md`
 └── LICENSE
-`
+```
 
 ---
 
